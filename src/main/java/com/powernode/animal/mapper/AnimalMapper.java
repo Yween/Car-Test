@@ -1,6 +1,7 @@
 package com.powernode.animal.mapper;
 
 import com.powernode.animal.pojo.Animal;
+import org.springframework.stereotype.Repository;
 
 import java.util.List;
 
@@ -10,6 +11,8 @@ import java.util.List;
  * @Date 2023/8/22 15:19
  * @注释
  */
+
+@Repository("animalMapper")
 public interface AnimalMapper {
 
     int insert(Animal animal);
