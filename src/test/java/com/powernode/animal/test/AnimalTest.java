@@ -9,6 +9,6 @@ package com.powernode.animal.test;
 public class AnimalTest {
     public static void main(String[] args) {
         System.out.println("这是一个测试动物的代码！");
-        System.out.println("采用spring的IOC容器的特性！")
+        System.out.println("采用spring的IOC容器的特性！");
     }
 }
