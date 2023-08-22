@@ -6,17 +6,18 @@ package com.powernode.animal.pojo;
  * @Date 2023/8/22 14:53
  * @注释
  */
-public class Car {
+public class Animal {
 
+    private String id;
     private String name;
     private String kind;
     private int age;
     private String master;
 
-    public Car() {
+    public Animal() {
     }
 
-    public Car(String name, String kind, int age, String master) {
+    public Animal(String name, String kind, int age, String master) {
         this.name = name;
         this.kind = kind;
         this.age = age;
